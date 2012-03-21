@@ -19,24 +19,12 @@ analyzers:
         timeout: 5.0
         regex: 'SRDMotor .*FFJ[0-9].*'
         num_items: 5
-      right_finger:
+      ring_finger:
         type: GenericAnalyzer
         path: Fingers/Ring Finger
         timeout: 5.0
         regex: 'SRDMotor .*RFJ[0-9].*'
         num_items: 5
-      middle_finger:
-        type: GenericAnalyzer
-        path: Fingers/Middle Finger
-        timeout: 5.0
-        regex: 'SRDMotor .*MFJ[0-9].*'
-        num_items: 5
-      little_finger:
-        type: GenericAnalyzer
-        path: Fingers/Little Finger
-        timeout: 5.0
-        regex: 'SRDMotor .*LFJ[0-9].*'
-        num_items: 6
       thumb:
         type: GenericAnalyzer
         path: Fingers/Thumb
@@ -55,4 +43,9 @@ analyzers:
         timeout: 5.0
         regex: [ 'SRDMotor : [0-9]+', 'SRBridge.*', 'EtherCAT Device.*Product SIX.*' ]
         num_items: 2
+      missing_fingers:
+        type: GenericAnalyzer
+        path: Ignored/Missing Fingers
+        timeout: 5.0
+        regex: 'SRDMotor .*[M-L]FJ[0-9].*'
 
