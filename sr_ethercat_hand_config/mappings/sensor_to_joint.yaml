@@ -21,11 +21,24 @@ joint_to_sensor_mapping: [
   [["FFJ3", 1.0]],               #FFJ3
   [["FFJ4", 1.0]],               #FFJ4
 
+  [["MFJ1", 1.0], ["MFJ2",1.0]], #MFJ0
+  [["MFJ1", 1.0]],               #MFJ1
+  [["MFJ2", 1.0]],               #MFJ2
+  [["MFJ3", 1.0]],               #MFJ3
+  [["MFJ4", 1.0]],               #MFJ4
+
   [["RFJ1", 1.0], ["RFJ2",1.0]], #RFJ0
   [["RFJ1", 1.0]],               #RFJ1
   [["RFJ2", 1.0]],               #RFJ2
   [["RFJ3", 1.0]],               #RFJ3
   [["RFJ4", 1.0]],               #RFJ4
+
+  [["LFJ1", 1.0], ["LFJ2",1.0]], #LFJ0
+  [["LFJ1", 1.0]],               #LFJ1
+  [["LFJ2", 1.0]],               #LFJ2
+  [["LFJ3", 1.0]],               #LFJ3
+  [["LFJ4", 1.0]],               #LFJ4
+  [["LFJ5", 1.0]],               #LFJ5
 
   [["THJ1", 1.0]],               #THJ1
   [["THJ2", 1.0]],               #THJ2
