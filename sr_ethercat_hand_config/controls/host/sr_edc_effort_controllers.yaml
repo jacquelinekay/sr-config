@@ -15,25 +15,6 @@ sh_ffj4_effort_controller:
   max_force: 1000
   friction_deadband: 5
 
-
-# Middle Finger
-sh_mfj0_effort_controller:
-  type: sr_mechanism_controllers/SrhEffortJointController
-  joint: MFJ2
-  max_force: 1000
-  friction_deadband: 5
-sh_mfj3_effort_controller:
-  type: sr_mechanism_controllers/SrhEffortJointController
-  joint: MFJ3
-  max_force: 1000
-  friction_deadband: 5
-sh_mfj4_effort_controller:
-  type: sr_mechanism_controllers/SrhEffortJointController
-  joint: MFJ4
-  max_force: 1000
-  friction_deadband: 5
-
-
 # Ring Finger
 sh_rfj0_effort_controller:
   type: sr_mechanism_controllers/SrhEffortJointController
@@ -48,29 +29,6 @@ sh_rfj3_effort_controller:
 sh_rfj4_effort_controller:
   type: sr_mechanism_controllers/SrhEffortJointController
   joint: RFJ4
-  max_force: 1000
-  friction_deadband: 5
-
-
-# Little Finger
-sh_lfj0_effort_controller:
-  type: sr_mechanism_controllers/SrhEffortJointController
-  joint: LFJ2
-  max_force: 1000
-  friction_deadband: 5
-sh_lfj3_effort_controller:
-  type: sr_mechanism_controllers/SrhEffortJointController
-  joint: LFJ3
-  max_force: 1000
-  friction_deadband: 5
-sh_lfj4_effort_controller:
-  type: sr_mechanism_controllers/SrhEffortJointController
-  joint: LFJ4
-  max_force: 1000
-  friction_deadband: 5
-sh_lfj5_effort_controller:
-  type: sr_mechanism_controllers/SrhEffortJointController
-  joint: LFJ5
   max_force: 1000
   friction_deadband: 5
 

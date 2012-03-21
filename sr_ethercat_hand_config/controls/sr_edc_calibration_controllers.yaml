@@ -17,23 +17,6 @@ cal_sh_ffj4:
   actuator: FFJ4
   transmission: ffknuckle_transmission
 
-
-cal_sh_mfj0:
-  type: sr_mechanism_controllers/SrhFakeJointCalibrationController
-  joint: MFJ2
-  actuator: MFJ0
-  transmission: mfmiddle_transmission
-cal_sh_mfj3:
-  type: sr_mechanism_controllers/SrhFakeJointCalibrationController
-  joint: MFJ3
-  actuator: MFJ3
-  transmission: mfproximal_transmission
-cal_sh_mfj4:
-  type: sr_mechanism_controllers/SrhFakeJointCalibrationController
-  joint: MFJ4
-  actuator: MFJ4
-  transmission: mfknuckle_transmission
-
 cal_sh_rfj0:
   type: sr_mechanism_controllers/SrhFakeJointCalibrationController
   joint: RFJ2
@@ -49,28 +32,6 @@ cal_sh_rfj4:
   joint: RFJ4
   actuator: RFJ4
   transmission: rfknuckle_transmission
-
-cal_sh_lfj0:
-  type: sr_mechanism_controllers/SrhFakeJointCalibrationController
-  joint: LFJ2
-  actuator: LFJ0
-  transmission: lfmiddle_transmission
-cal_sh_lfj3:
-  type: sr_mechanism_controllers/SrhFakeJointCalibrationController
-  joint: LFJ3
-  actuator: LFJ3
-  transmission: lfproximal_transmission
-cal_sh_lfj4:
-  type: sr_mechanism_controllers/SrhFakeJointCalibrationController
-  joint: LFJ4
-  actuator: LFJ4
-  transmission: lfknuckle_transmission
-cal_sh_lfj5:
-  type: sr_mechanism_controllers/SrhFakeJointCalibrationController
-  joint: LFJ5
-  actuator: LFJ5
-  transmission: lfmetacarpal_transmission
-
 
 cal_sh_thj1:
   type: sr_mechanism_controllers/SrhFakeJointCalibrationController
