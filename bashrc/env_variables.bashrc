@@ -1,6 +1,9 @@
 #set to 1 to compile sr_hand and sr_tactiles with the gazebo interface
 export GAZEBO=1
 
+# set to 1 for three fingers hands
+export THREE_FINGER=1
+
 # set to 1 for one finger hands
 export ONE_FINGER=0
 
