@@ -47,5 +47,5 @@ analyzers:
         type: GenericAnalyzer
         path: Ignored/Missing Fingers
         timeout: 5.0
-        regex: 'SRDMotor .*[M-L]FJ[0-9].*'
+        regex: 'SRDMotor .*[M,L]FJ[0-9].*'
 
