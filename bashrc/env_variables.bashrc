@@ -28,3 +28,6 @@ export ETHERCAT_PORT=eth1
 #set to 1 if you want to have access to the internal firmware repository
 #NOTE: for Shadow employees only for the time being
 export INTERNAL_FIRMWARE=0
+
+#seto to 1 if you want PWM control instead of torque demand
+export PWM_CONTROL=1
