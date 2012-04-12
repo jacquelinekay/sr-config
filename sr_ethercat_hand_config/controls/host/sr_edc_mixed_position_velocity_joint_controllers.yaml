@@ -354,7 +354,7 @@ sh_wrj2_mixed_position_velocity_controller:
   velocity_pid:
     d: 0.0
     friction_deadband: 5000.0
-    i: -110.0
+    i: -129.0
     i_clamp: 100.0
     max_force: 200.0
-    p: -177.0
+    p: -214.0
