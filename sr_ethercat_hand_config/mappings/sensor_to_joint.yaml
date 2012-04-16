@@ -46,6 +46,6 @@ joint_to_sensor_mapping: [
   [["THJ4", 1.0]],               #THJ4
   [1, ["THJ5A",.5], ["THJ5B",.5]],  #THJ5: calibrate AFTER combining the sensors
 
-  [1, ["WRJ1A",.5],["WRJ1B",.5]],   #WRJ1: calibrate AFTER combining the sensors
+  [1, ["WRJ1A",1.0],["WRJ1B",0.0]],   #WRJ1: calibrate AFTER combining the sensors
   [["WRJ2", 1.0]]                #WRJ2
 ]
