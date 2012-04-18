@@ -7,6 +7,9 @@ export ONE_FINGER=0
 # set to 1 for left hands
 export LEFT_HAND=0
 
+# set to 1 for biotac hands (hands with biotac sensors)
+export BIOTAC_HAND=1
+
 # set to 1 if you have a CAN hand
 #export REAL_HAND=0
 
@@ -27,4 +30,4 @@ export PWM_CONTROL=1
 
 #set to 1 if you want to have access to the internal firmware repository
 #NOTE: for Shadow employees only for the time being
-export INTERNAL_FIRMWARE=1
+export INTERNAL_FIRMWARE=0
