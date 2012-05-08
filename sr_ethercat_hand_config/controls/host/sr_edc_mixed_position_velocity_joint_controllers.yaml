@@ -3,7 +3,7 @@ sh_ffj0_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -3.5
-    i_clamp: 1.2000000476837158
+    i_clamp: 1.2
     max_velocity: 3.0
     min_velocity: -3.0
     p: -4.0
@@ -21,7 +21,7 @@ sh_ffj3_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -3.5
-    i_clamp: 1.2000000476837158
+    i_clamp: 1.2
     max_velocity: 1.5
     min_velocity: -1.5
     p: -4.0
@@ -39,7 +39,7 @@ sh_ffj4_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -3.5
-    i_clamp: 1.2000000476837158
+    i_clamp: 1.2
     max_velocity: 1.5
     min_velocity: -1.5
     p: -4.0
@@ -57,7 +57,7 @@ sh_lfj0_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -3.5
-    i_clamp: 1.2000000476837158
+    i_clamp: 1.2
     max_velocity: 3.0
     min_velocity: -3.0
     p: -4.0
@@ -68,32 +68,32 @@ sh_lfj0_mixed_position_velocity_controller:
     friction_deadband: 100.0
     i: 810.0
     i_clamp: 508.0
-    max_force: 1023.0
+    max_force: 0.0
     p: 250.0
 sh_lfj3_mixed_position_velocity_controller:
   joint: LFJ3
   position_pid:
     d: 0.0
-    i: -3.5
-    i_clamp: 1.2000000476837158
+    i: 0.80000000000000004
+    i_clamp: 1.2
     max_velocity: 1.5
     min_velocity: -1.5
-    p: -4.0
+    p: 4.0
     position_deadband: 0.002
   type: sr_mechanism_controllers/SrhMixedPositionVelocityJointController
   velocity_pid:
-    d: 0.0
+    d: 9.0
     friction_deadband: 100.0
-    i: -550.0
+    i: -2.0
     i_clamp: 378.0
-    max_force: 1023.0
-    p: -175.0
+    max_force: 200.0
+    p: -90.0
 sh_lfj4_mixed_position_velocity_controller:
   joint: LFJ4
   position_pid:
     d: 0.0
     i: -2.5
-    i_clamp: 0.60000002384185791
+    i_clamp: 0.59999999999999998
     max_velocity: 3.0
     min_velocity: -3.0
     p: -2.0
@@ -104,14 +104,14 @@ sh_lfj4_mixed_position_velocity_controller:
     friction_deadband: 5000.0
     i: -170.0
     i_clamp: 165.0
-    max_force: 1023.0
+    max_force: 0.0
     p: -110.0
 sh_lfj5_mixed_position_velocity_controller:
   joint: LFJ5
   position_pid:
     d: 0.0
     i: -3.5
-    i_clamp: 1.2000000476837158
+    i_clamp: 1.2
     max_velocity: 3.0
     min_velocity: -3.0
     p: -3.0
@@ -129,7 +129,7 @@ sh_mfj0_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -3.5
-    i_clamp: 1.2000000476837158
+    i_clamp: 1.2
     max_velocity: 3.0
     min_velocity: -3.0
     p: -4.0
@@ -147,7 +147,7 @@ sh_mfj3_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -3.5
-    i_clamp: 1.2000000476837158
+    i_clamp: 1.2
     max_velocity: 1.5
     min_velocity: -1.5
     p: -4.0
@@ -165,7 +165,7 @@ sh_mfj4_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -2.5
-    i_clamp: 0.60000002384185791
+    i_clamp: 0.59999999999999998
     max_velocity: 3.0
     min_velocity: -3.0
     p: -2.0
@@ -183,7 +183,7 @@ sh_rfj0_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -3.5
-    i_clamp: 1.2000000476837158
+    i_clamp: 1.2
     max_velocity: 3.0
     min_velocity: -3.0
     p: -4.0
@@ -201,7 +201,7 @@ sh_rfj3_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -3.5
-    i_clamp: 1.2000000476837158
+    i_clamp: 1.2
     max_velocity: 1.5
     min_velocity: -1.5
     p: -4.0
@@ -219,7 +219,7 @@ sh_rfj4_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -2.5
-    i_clamp: 0.60000002384185791
+    i_clamp: 0.59999999999999998
     max_velocity: 3.0
     min_velocity: -3.0
     p: -2.0
@@ -237,7 +237,7 @@ sh_thj1_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -2.5
-    i_clamp: 0.80000001192092896
+    i_clamp: 0.80000000000000004
     max_velocity: 3.0
     min_velocity: -3.0
     p: -3.0
@@ -255,7 +255,7 @@ sh_thj2_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -3.5
-    i_clamp: 1.2000000476837158
+    i_clamp: 1.2
     max_velocity: 3.0
     min_velocity: -3.0
     p: -4.0
@@ -273,7 +273,7 @@ sh_thj3_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -2.5
-    i_clamp: 0.80000001192092896
+    i_clamp: 0.80000000000000004
     max_velocity: 1.5
     min_velocity: -1.5
     p: -3.0
@@ -291,7 +291,7 @@ sh_thj4_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -2.5
-    i_clamp: 0.89999997615814209
+    i_clamp: 0.90000000000000002
     max_velocity: 1.5
     min_velocity: -1.5
     p: -3.0
@@ -309,7 +309,7 @@ sh_thj5_mixed_position_velocity_controller:
   position_pid:
     d: 0.0
     i: -2.5
-    i_clamp: 0.89999997615814209
+    i_clamp: 0.90000000000000002
     max_velocity: 1.5
     min_velocity: -1.5
     p: -3.0
