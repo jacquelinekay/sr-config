@@ -1,0 +1,11 @@
+<launch>
+  <!-- Loads effort controllers for every joint of the shadow robot hand -->
+
+  <rosparam command="load" file="$(find sr_robot_lib)/config/friction_compensation.yaml" />
+  <rosparam command="load" file="$(find sr_ethercat_hand_config)/controls/host/sr_edc_kien_effort_controllers.yaml" />
+
+  <node name="effort_controllers_spawner"
+        pkg="pr2_controller_manager" type="spawner" output="screen"
+        args="sh_ffj3_kien_effort_controller" />
+
+</launch>

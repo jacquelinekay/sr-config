@@ -1,0 +1,17 @@
+# First Finger (Index finger)
+sh_ffj0_kien_effort_controller:
+  type: sr_mechanism_controllers/SrhEffortJointController
+  joint: FFJ2
+  max_force: 300
+  friction_deadband: 5000
+sh_ffj3_kien_effort_controller:
+  type: sr_mechanism_controllers/SrhEffortJointControllerGaugesLR
+  joint: FFJ3
+  max_force: 300
+  friction_deadband: 5000
+sh_ffj4_kien_effort_controller:
+  type: sr_mechanism_controllers/SrhEffortJointController
+  joint: FFJ4
+  max_force: 300
+  friction_deadband: 5000
+

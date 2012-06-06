@@ -1,0 +1,480 @@
+sh_ffj0_kien_joint_controller:
+  joint: FFJ0
+  position_pid:
+    d: 0.0
+    i: -3.5
+    i_clamp: 1.2000000476837158
+    max_velocity: 1.0
+    min_velocity: -1.0
+    p: -4.0
+    position_deadband: 0.002
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 100.0
+    i: -810.0
+    i_clamp: 508.0
+    max_force: 300.0
+    p: -250.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.005
+    velo_zero_deadband: 0.25
+    torque_zero_deadband: 10.0
+    kpvelo: 0.3
+    kivelo: 0.3 #0.6
+    kdvelo: 0.0
+    maxTorque: 300.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 3.0 #rad/s
+    nominativeInertia: 3.0 #unit*s*s/rad
+    nFilterSteps: 15.0
+#    frictionCompensation: 4.0
+
+sh_ffj3_kien_joint_controller:
+  joint: FFJ3
+  position_pid:
+    d: 0.0
+    i: -3.5
+    i_clamp: 1.2000000476837158
+    max_velocity: 0.5
+    min_velocity: -0.5
+    p: -4.0
+    position_deadband: 0.002
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 100.0
+    i: 710.0
+    i_clamp: 488.0
+    max_force: 300.0
+    p: 210.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.003
+    velo_zero_deadband: 0.15
+    torque_zero_deadband: 10.0
+    kpvelo: -0.4
+    kivelo: -0.3
+    kdvelo: 0.0
+    maxTorque: 300.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 2.0 #rad/s
+    nominativeInertia: 3.0 #unit*s*s/rad
+    nFilterSteps: 15.0
+#    frictionCompensation: 4.0
+
+sh_ffj4_kien_joint_controller:
+  joint: FFJ4
+  position_pid:
+    d: 0.0
+    i: -3.5
+    i_clamp: 1.2000000476837158
+    max_velocity: 0.5
+    min_velocity: -0.5
+    p: -4.0
+    position_deadband: 0.0030000000000000001
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 5000.0
+    i: -710.0
+    i_clamp: 488.0
+    max_force: 300.0
+    p: -210.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.003
+    velo_zero_deadband: 0.15
+    torque_zero_deadband: 10.0
+    kpvelo: 0.4
+    kivelo: 1.4
+    kdvelo: 0.0
+    maxTorque: 300.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 2.0 #rad/s
+    nominativeInertia: 2.0 #unit*s*s/rad
+    nFilterSteps: 15.0
+#    frictionCompensation: 4.0
+
+sh_mfj0_kien_joint_controller:
+  joint: MFJ0
+  position_pid:
+    d: 0.0
+    i: -3.5
+    i_clamp: 1.2000000476837158
+    max_velocity: 1.5
+    min_velocity: -1.5
+    p: -4.0
+    position_deadband: 0.002
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 100.0
+    i: -810.0
+    i_clamp: 508.0
+    max_force: 300.0
+    p: -250.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.005
+    velo_zero_deadband: 0.15
+    torque_zero_deadband: 10.0
+    kpvelo: 0.4
+    kivelo: 0.6
+    kdvelo: 0.0
+    maxTorque: 300.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 3.0 #rad/s
+    nominativeInertia: 4.0 #unit*s*s/rad
+    nFilterSteps: 15.0
+#    frictionCompensation: 4.0
+
+sh_mfj3_kien_joint_controller:
+  joint: MFJ3
+  position_pid:
+    d: 0.0
+    i: -3.5
+    i_clamp: 1.2000000476837158
+    max_velocity: 1.5
+    min_velocity: -1.5
+    p: -4.0
+    position_deadband: 0.002
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 100.0
+    i: 710.0
+    i_clamp: 488.0
+    max_force: 300.0
+    p: 210.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.003
+    velo_zero_deadband: 0.15
+    torque_zero_deadband: 10.0
+    kpvelo: -0.4
+    kivelo: -0.6
+    kdvelo: 0.0
+    maxTorque: 300.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 2.0 #rad/s
+    nominativeInertia: 3.0 #unit*s*s/rad
+    nFilterSteps: 15.0
+#    frictionCompensation: 4.0
+
+sh_mfj4_kien_joint_controller:
+  joint: MFJ4
+  position_pid:
+    d: 0.0
+    i: -2.5
+    i_clamp: 0.60000002384185791
+    max_velocity: 1.5
+    min_velocity: -1.5
+    p: -2.0
+    position_deadband: 0.0040000000000000001
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 5000.0
+    i: -170.0
+    i_clamp: 165.0
+    max_force: 300.0
+    p: -110.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.003
+    velo_zero_deadband: 0.15
+    torque_zero_deadband: 10.0
+    kpvelo: 0.6
+    kivelo: 0.9
+    kdvelo: 0.0
+    maxTorque: 300.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 2.0 #rad/s
+    nominativeInertia: 4.5 #unit*s*s/rad
+    nFilterSteps: 15.0
+#    frictionCompensation: 4.0
+
+sh_thj1_kien_joint_controller:
+  joint: THJ1
+  position_pid:
+    d: 0.0
+    i: -2.5
+    i_clamp: 0.80000001192092896
+    max_velocity: 3.0
+    min_velocity: -3.0
+    p: -3.0
+    position_deadband: 0.002
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 0.0
+    i: -410.0
+    i_clamp: 208.0
+    max_force: 300.0
+    p: -175.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.003
+    velo_zero_deadband: 0.15
+    torque_zero_deadband: 10.0
+    kpvelo: 0.4
+    kivelo: 0.15
+    kdvelo: 0.0
+    maxTorque: 300.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 2.0 #rad/s
+    nominativeInertia: 2.0 #unit*s*s/rad
+    nFilterSteps: 30.0
+#    frictionCompensation: 4.0
+
+sh_thj2_kien_joint_controller:
+  joint: THJ2
+  position_pid:
+    d: 0.0
+    i: -3.5
+    i_clamp: 1.2000000476837158
+    max_velocity: 3.0
+    min_velocity: -3.0
+    p: -4.0
+    position_deadband: 0.002
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 0.0
+    i: 810.0
+    i_clamp: 508.0
+    max_force: 300.0
+    p: 250.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.003
+    velo_zero_deadband: 0.15
+    torque_zero_deadband: 10.0
+    kpvelo: -0.4
+    kivelo: -0.3
+    kdvelo: 0.0
+    maxTorque: 300.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 2.0 #rad/s
+    nominativeInertia: 2.0 #unit*s*s/rad
+    nFilterSteps: 30.0
+#    frictionCompensation: 4.0
+
+sh_thj3_kien_joint_controller:
+  joint: THJ3
+  position_pid:
+    d: 0.0
+    i: -2.5
+    i_clamp: 0.80000001192092896
+    max_velocity: 1.5
+    min_velocity: -1.5
+    p: -3.0
+    position_deadband: 0.002
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 100.0
+    i: -360.0
+    i_clamp: 178.0
+    max_force: 300.0
+    p: -170.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.003
+    velo_zero_deadband: 0.1
+    torque_zero_deadband: 10.0
+    kpvelo: 0.6
+    kivelo: 0.8
+    kdvelo: 0.0
+    maxTorque: 300.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 2.0 #rad/s
+    nominativeInertia: 2.0 #unit*s*s/rad
+    nFilterSteps: 15.0
+#    frictionCompensation: 4.0
+
+sh_thj4_kien_joint_controller:
+  joint: THJ4
+  position_pid:
+    d: 0.0
+    i: -2.5
+    i_clamp: 0.89999997615814209
+    max_velocity: 1.5
+    min_velocity: -1.5
+    p: -3.0
+    position_deadband: 0.002
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 100.0
+    i: -270.0
+    i_clamp: 140.0
+    max_force: 300.0
+    p: -130.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.003
+    velo_zero_deadband: 0.1
+    torque_zero_deadband: 10.0
+    kpvelo: 0.6
+    kivelo: 0.4
+    kdvelo: 0.0
+    maxTorque: 300.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 2.5 #rad/s
+    nominativeInertia: 5.0 #unit*s*s/rad
+    nFilterSteps: 15.0
+#    frictionCompensation: 4.0
+
+sh_thj5_kien_joint_controller:
+  joint: THJ5
+  position_pid:
+    d: 0.0
+    i: -2.5
+    i_clamp: 0.89999997615814209
+    max_velocity: 1.5
+    min_velocity: -1.5
+    p: -3.0
+    position_deadband: 0.002
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 100.0
+    i: 320.0
+    i_clamp: 170.0
+    max_force: 700.0 #PWM units
+    p: 160.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.003
+    velo_zero_deadband: 0.1
+    torque_zero_deadband: 1.0
+    kpvelo: -0.3
+    kivelo: -0.07
+    kdvelo: 0.0
+    maxTorque: 200.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 1.5 #rad/s
+    nominativeInertia: 4.5 #unit*s*s/rad
+    nFilterSteps: 15.0
+#    frictionCompensation: 4.0
+
+sh_wrj1_kien_joint_controller:
+  joint: WRJ1
+  position_pid:
+    d: 0.0
+    i: 0.0
+    i_clamp: 0.0
+    max_velocity: 3.0
+    min_velocity: -3.0
+    p: -4.0
+    position_deadband: 0.0030000000000000001
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 100.0
+    i: 170.0
+    i_clamp: 140.0
+    max_force: 200.0
+    p: 160.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.003
+    velo_zero_deadband: 0.15
+    torque_zero_deadband: 10.0
+    kpvelo: -0.1
+    kivelo: -0.4
+    kdvelo: 0.0
+    maxTorque: 200.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 2.0 #rad/s
+    nominativeInertia: 4.0 #unit*s*s/rad
+    nFilterSteps: 30.0
+#    frictionCompensation: 4.0
+
+sh_wrj2_kien_joint_controller:
+  joint: WRJ2
+  position_pid:
+    d: 0.0
+    i: 0.0
+    i_clamp: 0.0
+    max_velocity: 3.0
+    min_velocity: -3.0
+    p: 2.0
+    position_deadband: 0.014999999999999999
+  type: sr_mechanism_controllers/SrhKienJointController03
+  velocity_pid:
+    d: 0.0
+    friction_deadband: 5000.0
+    i: 170.0
+    i_clamp: 140.0
+    max_force: 200.0
+    p: 160.0
+  kjstate:
+    controlMode: 1.0 # position control
+    kppos: 0.0
+    kipos: 0.0
+    kdpos: 0.0
+#    motorDir: -1.0
+    pos_deadband: 0.003
+    velo_zero_deadband: 0.15
+    torque_zero_deadband: 10.0
+    kpvelo: 0.1
+    kivelo: 0.4
+    kdvelo: 0.0
+    maxTorque: 200.0 #units
+    maxMoveTorque: 200.0
+    maxVelo: 2.0 #rad/s
+    nominativeInertia: 4.0 #unit*s*s/rad
+    nFilterSteps: 30.0
+#    frictionCompensation: 4.0

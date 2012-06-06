@@ -1,0 +1,5 @@
+<launch>
+	    <rosparam file="$(find sr_ethercat_hand_config)/controls/host/sr_edc_kien_controllers_03.yaml" command="load" />
+
+	    <node pkg="pr2_controller_manager" type="spawner" args="sh_rfj0_kien_joint_controller sh_rfj3_kien_joint_controller sh_rfj4_kien_joint_controller " name="kien_controller_spawner" output="screen"/>
+</launch>
