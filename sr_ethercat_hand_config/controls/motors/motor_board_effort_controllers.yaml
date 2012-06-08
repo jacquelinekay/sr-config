@@ -266,15 +266,15 @@ wrj1:
     sign: 1.0
 wrj2:
   pid:
-    d: 18000.0
-    deadband: 5.0
-    f: 1900.0
-    i: 720.0
-    imax: 1700.0
-    max_pwm: 1023.0
-    p: 6100.0
+    d: 0
+    deadband: 5
+    f: 2700
+    i: 500
+    imax: 1200
+    max_pwm: 1023
+    p: 4100
     sg_left: 0
     sg_right: 0
-    sgleftref: 0.0
-    sgrightref: 0.0
-    sign: 0.0
+    sgleftref: 0
+    sgrightref: 0
+    sign: 0
