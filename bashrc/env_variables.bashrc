@@ -20,10 +20,10 @@ export MUSCLE=0
 export ETHERCAT=1
 
 #set to 1 if you want to build the compatibility interface for the etherCAT hand
-export ETHERCAT_PORT=eth1
+export ETHERCAT_PORT=eth0
 
 #set to 1 if you're using PWM control on the etherCAT hand motors by default
-export PWM_CONTROL=0
+export PWM_CONTROL=1
 
 #set to 1 if you want to have access to the internal firmware repository
 #NOTE: for Shadow employees only for the time being
