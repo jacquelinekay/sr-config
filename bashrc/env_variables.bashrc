@@ -20,7 +20,7 @@ export MUSCLE=0
 export ETHERCAT=1
 
 #set to 1 if you want to build the compatibility interface for the etherCAT hand
-export ETHERCAT_PORT=eth0
+export ETHERCAT_PORT=eth1
 
 #set to 1 if you're using PWM control on the etherCAT hand motors by default
 export PWM_CONTROL=1
@@ -34,3 +34,6 @@ export ELLIPSOID=0
 
 #set to 1 if you want to use the simulation for the manipulation stack
 export SIMULATED=1
+
+# set to 1 for biotac hands (hands with biotac sensors)
+export BIOTAC_HAND=1
