@@ -4,6 +4,9 @@
 # set to 1 for three fingers hands
 export THREE_FINGER=1
 
+#set to 1 if you dont want gazebo to start with the GUI
+export GAZEBO_NO_X=0
+
 # set to 1 for one finger hands
 export ONE_FINGER=0
 
@@ -17,13 +20,16 @@ export LEFT_HAND=0
 #export REAL_ARM=0
 
 #set to 1 if you have a muscle arm or hand
-#export VALVES=0
+export MUSCLE=0
 
 #set to 1 if you want to build the compatibility interface for the etherCAT hand
 export ETHERCAT=1
 
-#set to 1 if you want to build the compatibility interface for the etherCAT hand
+#port in which the etherCAT hand is plugged in
 export ETHERCAT_PORT=eth1
+
+#set to 1 if you're using PWM control on the etherCAT hand motors by default
+export PWM_CONTROL=1
 
 #set to 1 if you want to have access to the internal firmware repository
 #NOTE: for Shadow employees only for the time being
@@ -31,3 +37,6 @@ export INTERNAL_FIRMWARE=0
 
 #seto to 1 if you want PWM control instead of torque demand
 export PWM_CONTROL=1
+
+#set to 1 if you want to use the simulation for the manipulation stack
+export SIMULATED=1

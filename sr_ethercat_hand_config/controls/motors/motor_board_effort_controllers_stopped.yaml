@@ -5,7 +5,7 @@ ffj0:
     f: 0
     i: 0
     imax: 0
-    max_pwm: 1023.0
+    max_pwm: 0.0
     p: 0
     sg_left: 0
     sg_right: 0
@@ -19,7 +19,7 @@ ffj3:
     f: 0
     i: 0
     imax: 0
-    max_pwm: 1023
+    max_pwm: 0
     p: 0
     sg_left: 0
     sg_right: 0
@@ -33,7 +33,105 @@ ffj4:
     f: 0
     i: 0
     imax: 0
-    max_pwm: 1023.0
+    max_pwm: 0.0
+    p: 0
+    sg_left: 0
+    sg_right: 0
+    sgleftref: 0.0
+    sgrightref: 0.0
+    sign: 0.0
+lfj0:
+  pid:
+    d: 0
+    deadband: 0.0
+    f: 0
+    i: 0
+    imax: 0
+    max_pwm: 0.0
+    p: 0
+    sg_left: 0
+    sg_right: 0
+    sgleftref: 0.0
+    sgrightref: 0.0
+    sign: 0.0
+lfj3:
+  pid:
+    d: 0
+    deadband: 0.0
+    f: 0
+    i: 0
+    imax: 0
+    max_pwm: 0.0
+    p: 0
+    sg_left: 0
+    sg_right: 0
+    sgleftref: 0.0
+    sgrightref: 0.0
+    sign: 0.0
+lfj4:
+  pid:
+    d: 0
+    deadband: 0.0
+    f: 0
+    i: 0
+    imax: 0
+    max_pwm: 0.0
+    p: 0
+    sg_left: 0
+    sg_right: 0
+    sgleftref: 0.0
+    sgrightref: 0.0
+    sign: 0.0
+lfj5:
+  pid:
+    d: 0
+    deadband: 0.0
+    f: 0
+    i: 0
+    imax: 0
+    max_pwm: 0.0
+    p: 0
+    sg_left: 0
+    sg_right: 0
+    sgleftref: 0.0
+    sgrightref: 0.0
+    sign: 0.0
+mfj0:
+  pid:
+    d: 0
+    deadband: 0.0
+    f: 0
+    i: 0
+    imax: 0
+    max_pwm: 0.0
+    p: 0
+    sg_left: 0
+    sg_right: 0
+    sgleftref: 0.0
+    sgrightref: 0.0
+    sign: 0.0
+mfj3:
+  pid:
+    d: 0
+    deadband: 0.0
+    f: 0
+    i: 0
+    imax: 0
+    max_pwm: 0.0
+    p: 0
+    sg_left: 0
+    sg_right: 0
+    sgleftref: 0.0
+    sgrightref: 0.0
+    sign: 0.0
+mfj4:
+  pid:
+    d: 0
+    deadband: 0.0
+    f: 0
+    i: 0
+    imax: 0
+    max_pwm: 0.0
     p: 0
     sg_left: 0
     sg_right: 0
@@ -47,7 +145,7 @@ rfj0:
     f: 0
     i: 0
     imax: 0
-    max_pwm: 1023.0
+    max_pwm: 0.0
     p: 0
     sg_left: 0
     sg_right: 0
@@ -61,7 +159,7 @@ rfj3:
     f: 0
     i: 0
     imax: 20
-    max_pwm: 1023.0
+    max_pwm: 0.0
     p: 0
     sg_left: 0
     sg_right: 0
@@ -75,7 +173,7 @@ rfj4:
     f: 0
     i: 0
     imax: 0
-    max_pwm: 1023.0
+    max_pwm: 0.0
     p: 0
     sg_left: 0
     sg_right: 0
@@ -89,7 +187,7 @@ thj1:
     f: 0
     i: 0
     imax: 0
-    max_pwm: 1023.0
+    max_pwm: 0.0
     p: 0
     sg_left: 0
     sg_right: 0
@@ -103,7 +201,7 @@ thj2:
     f: 0
     i: 0
     imax: 0
-    max_pwm: 1023.0
+    max_pwm: 0.0
     p: 0
     sg_left: 0
     sg_right: 0
@@ -117,7 +215,7 @@ thj3:
     f: 0
     i: 0
     imax: 0
-    max_pwm: 1023.0
+    max_pwm: 0.0
     p: 0
     sg_left: 0
     sg_right: 0
@@ -131,7 +229,7 @@ thj4:
     f: 0
     i: 0
     imax: 0
-    max_pwm: 1023.0
+    max_pwm: 0.0
     p: 0
     sg_left: 0
     sg_right: 0
@@ -145,7 +243,7 @@ thj5:
     f: 0
     i: 0
     imax: 0
-    max_pwm: 1023.0
+    max_pwm: 0.0
     p: 0
     sg_left: 0
     sg_right: 0
@@ -159,7 +257,7 @@ wrj1:
     f: 0
     i: 0
     imax: 0
-    max_pwm: 1023.0
+    max_pwm: 0.0
     p: 0
     sg_left: 0
     sg_right: 0
@@ -173,7 +271,7 @@ wrj2:
     f: 0
     i: 0
     imax: 0
-    max_pwm: 1023
+    max_pwm: 0
     p: 0
     sg_left: 0
     sg_right: 0
