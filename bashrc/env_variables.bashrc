@@ -26,7 +26,7 @@ export MUSCLE=0
 export ETHERCAT=1
 
 #port in which the etherCAT hand is plugged in
-export ETHERCAT_PORT=eth1
+export ETHERCAT_PORT=eth0
 
 #set to 1 if you're using PWM control on the etherCAT hand motors by default
 export PWM_CONTROL=0
