@@ -18,7 +18,7 @@ sh_ffj3_position_controller:
     friction_deadband: 65535.0
     i: 300.0
     i_clamp: 220.0
-    max_force: 700.0
+    max_force: 600.0
     p: 6500.0
     position_deadband: 0.005
   type: sr_mechanism_controllers/SrhJointPositionController
@@ -53,7 +53,7 @@ sh_lfj3_position_controller:
     friction_deadband: 65535.0
     i: -300.0
     i_clamp: 220.0
-    max_force: 700.0
+    max_force: 600.0
     p: -7000.0
     position_deadband: 0.005
   type: sr_mechanism_controllers/SrhJointPositionController
@@ -100,7 +100,7 @@ sh_mfj3_position_controller:
     friction_deadband: 65535.0
     i: 300.0
     i_clamp: 220.0
-    max_force: 700.0
+    max_force: 600.0
     p: 6500.0
     position_deadband: 0.005
   type: sr_mechanism_controllers/SrhJointPositionController
@@ -135,7 +135,7 @@ sh_rfj3_position_controller:
     friction_deadband: 65535.0
     i: -300.0
     i_clamp: 220.0
-    max_force: 700.0
+    max_force: 600.0
     p: -8000.0
     position_deadband: 0.005
   type: sr_mechanism_controllers/SrhJointPositionController
@@ -195,7 +195,7 @@ sh_thj4_position_controller:
     friction_deadband: 65535.0
     i: -300.0
     i_clamp: 200.0
-    max_force: 800.0
+    max_force: 700.0
     p: -6800.0
     position_deadband: 0.005
   type: sr_mechanism_controllers/SrhJointPositionController
@@ -207,7 +207,7 @@ sh_thj5_position_controller:
     friction_deadband: 65535.0
     i: 300.0
     i_clamp: 200.0
-    max_force: 800.0
+    max_force: 700.0
     p: 6000.0
     position_deadband: 0.005
   type: sr_mechanism_controllers/SrhJointPositionController
@@ -219,7 +219,7 @@ sh_wrj1_position_controller:
     friction_deadband: 65534.0
     i: 400.0
     i_clamp: 200.0
-    max_force: 900.0
+    max_force: 700.0
     p: 10000.0
     position_deadband: 0.005
   type: sr_mechanism_controllers/SrhJointPositionController
@@ -231,9 +231,7 @@ sh_wrj2_position_controller:
     friction_deadband: 65535.0
     i: -400.0
     i_clamp: 200.0
-    max_force: 900.0
+    max_force: 700.0
     p: -11000.0
     position_deadband: 0.005
   type: sr_mechanism_controllers/SrhJointPositionController
-
-
