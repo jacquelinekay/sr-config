@@ -247,7 +247,7 @@ thj4:
     i: 150
     imax: 70
     max_pwm: 1023
-    p: 8200
+    p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
@@ -262,7 +262,7 @@ thj5:
     i: 150
     imax: 70
     max_pwm: 1023
-    p: 8200
+    p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
@@ -276,7 +276,7 @@ wrj1:
     f: 300
     i: 150
     imax: 70
-    max_pwm: 1023
+    max_pwm: 0
     p: 6200
     sg_left: 0
     sg_right: 0
@@ -298,3 +298,5 @@ wrj2:
     sgleftref: 0
     sgrightref: 0
     sign: 0
+
+
