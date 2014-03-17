@@ -383,11 +383,11 @@ class FancyDemo(object):
 	                joint(joint_name = "THJ4", joint_target = 50),
 	                joint(joint_name = "THJ5", joint_target = -16.8) ]
     # business card zero position
-    bc_zero = [ joint(joint_name = "FFJ0", joint_target = 13.6),
-	            joint(joint_name = "FFJ3", joint_target = 7),
+    bc_zero = [ joint(joint_name = "FFJ0", joint_target = 37),
+	            joint(joint_name = "FFJ3", joint_target = 6),
 	            joint(joint_name = "FFJ4", joint_target = -0.4),
-	            joint(joint_name = "MFJ0", joint_target = 51.1),
-	            joint(joint_name = "MFJ3", joint_target = 32),
+	            joint(joint_name = "MFJ0", joint_target = 52),
+	            joint(joint_name = "MFJ3", joint_target = 31),
 	            joint(joint_name = "MFJ4", joint_target = 21),
 	            joint(joint_name = "RFJ0", joint_target = 50),
 	            joint(joint_name = "RFJ3", joint_target = 18),
@@ -396,11 +396,11 @@ class FancyDemo(object):
 	            joint(joint_name = "LFJ3", joint_target = 0),
 	            joint(joint_name = "LFJ4", joint_target = -24),
 	            joint(joint_name = "LFJ5", joint_target = 7),	      
-	            joint(joint_name = "THJ1", joint_target = 17.2),
-	            joint(joint_name = "THJ2", joint_target = 10.4),
+	            joint(joint_name = "THJ1", joint_target = 29),
+	            joint(joint_name = "THJ2", joint_target = -6.5),
 	            joint(joint_name = "THJ3", joint_target = -4),
-	            joint(joint_name = "THJ4", joint_target = 50),
-	            joint(joint_name = "THJ5", joint_target = -13.6) ]
+	            joint(joint_name = "THJ4", joint_target = 42),
+	            joint(joint_name = "THJ5", joint_target = -10) ]
     # business card position 1
     bc_1 = [ joint(joint_name = "FFJ0", joint_target = 137),
 	         joint(joint_name = "FFJ3", joint_target = 7) ]
@@ -411,7 +411,7 @@ class FancyDemo(object):
     bc_3 = [ joint(joint_name = "FFJ0", joint_target = 137),
 	         joint(joint_name = "FFJ3", joint_target = 58) ]
     # business card position 4
-    bc_4 = [ joint(joint_name = "FFJ0", joint_target = 66),
+    bc_4 = [ joint(joint_name = "FFJ0", joint_target = 82),
 	         joint(joint_name = "FFJ3", joint_target = 58) ]
     # business card position 5
     bc_5 = [ joint(joint_name = "FFJ0", joint_target = 180),
@@ -438,7 +438,7 @@ class FancyDemo(object):
     bc_12 = [ joint(joint_name = "FFJ0", joint_target = 137),
 	          joint(joint_name = "FFJ3", joint_target = 58) ]
     # business card position 13
-    bc_13 = [ joint(joint_name = "FFJ0", joint_target = 66),
+    bc_13 = [ joint(joint_name = "FFJ0", joint_target = 100),
 	          joint(joint_name = "FFJ3", joint_target = 58) ]
     # business card position 14
     bc_14 = [ joint(joint_name = "MFJ3", joint_target = 64),
@@ -448,7 +448,7 @@ class FancyDemo(object):
 	          joint(joint_name = "FFJ4", joint_target = 20),
 	          joint(joint_name = "FFJ3", joint_target = 50),
               joint(joint_name = "THJ4", joint_target = 55),
-	          joint(joint_name = "THJ5", joint_target = 20) ]
+	          joint(joint_name = "THJ5", joint_target = 21) ]
     # business card position 16
     bc_16 = [ joint(joint_name = "MFJ0", joint_target = 20),
 	          joint(joint_name = "MFJ3", joint_target = 10),
@@ -478,7 +478,7 @@ class FancyDemo(object):
 
         # We subscribe to the data being published by the biotac sensors.
         #self.sub_biotacs = rospy.Subscriber("/tactiles", BiotacAll, self.callback_biotacs, queue_size=1)
-        #self.sub_psts    = rospy.Subscriber("/tactile", ShadowPST, self.callback_psts, queue_size=1)
+        self.sub_psts    = rospy.Subscriber("/tactile", ShadowPST, self.callback_psts, queue_size=1)
 
     def create_hand_publishers(self):
         """
@@ -717,7 +717,7 @@ class FancyDemo(object):
 	self.hand_publish( self.bc_pre_zero )
 	time.sleep(2)
 	self.hand_publish( self.bc_zero )
-	time.sleep(3)
+	time.sleep(4)
 	self.hand_publish( self.bc_1 )
 	time.sleep(1)
 #	self.hand_publish( self.bc_2 )
