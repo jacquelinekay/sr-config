@@ -87,7 +87,7 @@ lfj4:
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
-    sign: 0
+    sign: 1
 lfj5:
   backlash_compensation: true
   pid:
