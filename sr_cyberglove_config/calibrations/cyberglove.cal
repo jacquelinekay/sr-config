@@ -5,8 +5,8 @@
 <calib raw_value="0.5" calibrated_value="0.0"/>
 </Joint>
 <Joint name="G_IndexDIJ">
-<calib raw_value="0.019" calibrated_value="0.0"/>
-<calib raw_value="0.38" calibrated_value="1.5707963267948966"/>
+<calib raw_value="0.03" calibrated_value="0.0"/>
+<calib raw_value="0.4" calibrated_value="0.77"/>
 </Joint>
 <Joint name="G_RingDIJ">
 <calib raw_value="0.17" calibrated_value="0.0"/>
@@ -22,7 +22,7 @@
 </Joint>
 <Joint name="G_PalmArch">
 <calib raw_value="0.0" calibrated_value="0.0"/>
-<calib raw_value="0.33" calibrated_value="0.69813170079773179"/>
+<calib raw_value="0.33" calibrated_value="0.0"/>
 </Joint>
 <Joint name="G_PinkiePIJ">
 <calib raw_value="0.29" calibrated_value="0.0"/>
@@ -41,8 +41,8 @@
 <calib raw_value="0.48" calibrated_value="1.5707963267948966"/>
 </Joint>
 <Joint name="G_ThumbAb">
-<calib raw_value="0.41" calibrated_value="0.87266462599716477"/>
-<calib raw_value="0.68" calibrated_value="0.0"/>
+<calib raw_value="0.41" calibrated_value="1.04"/>
+<calib raw_value="0.68" calibrated_value="-1.04"/>
 </Joint>
 <Joint name="G_IndexMPJ">
 <calib raw_value="0.36" calibrated_value="0.0"/>
@@ -53,16 +53,16 @@
 <calib raw_value="0.44" calibrated_value="1.5707963267948966"/>
 </Joint>
 <Joint name="G_IndexPIJ">
-<calib raw_value="0.18" calibrated_value="0.0"/>
-<calib raw_value="0.38" calibrated_value="1.5707963267948966"/>
+<calib raw_value="0.30" calibrated_value="0.0"/>
+<calib raw_value="0.60" calibrated_value="0.77"/>
 </Joint>
 <Joint name="G_ThumbRotate">
-<calib raw_value="0.0" calibrated_value="-1.0471975511965976"/>
-<calib raw_value="0.40" calibrated_value="1.0471975511965976"/>
+<calib raw_value="0.0" calibrated_value="0.0"/>
+<calib raw_value="0.40" calibrated_value="1.221975511965976"/>
 </Joint>
 <Joint name="G_ThumbIJ">
-<calib raw_value="0.43" calibrated_value="0.0"/>
-<calib raw_value="0.48" calibrated_value="1.5707963267948966"/>
+<calib raw_value="0.33" calibrated_value="0.0"/>
+<calib raw_value="0.60" calibrated_value="1.5707963267948966"/>
 </Joint>
 <Joint name="G_MiddleIndexAb">
 <calib raw_value="0.13" calibrated_value="0.0"/>
