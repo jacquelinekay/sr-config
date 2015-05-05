@@ -11,5 +11,5 @@
 
   <!-- trajectory controller -->
   <rosparam command="load" file="$(find sr_ethercat_hand_config)/controls/host/hand_trajectory_controller.yaml"/>
-  <node name="hand_trajectory_controller_spawner" pkg="controller_manager" type="spawner" output="screen" args="shutdown-timeout=1.0 trajectory_controller "/>
+  <node name="hand_trajectory_controller_spawner" pkg="controller_manager" type="spawner" output="screen" args="--shutdown-timeout=1.0 trajectory_controller "/>
 </launch>
