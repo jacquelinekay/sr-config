@@ -1,5 +1,5 @@
 <launch>
-  <include file="$(find sr_robot_launch)/srhand.launch">
+  <include file="$(find sr_robot_launch)/launch/srhand.launch">
     <arg name="eth_port" value="eth1" />
     <arg name="robot_description" value="$(find sr_description)/robots/shadowhand_extra_lite.urdf.xacro"/>
     <arg name="pwm_control" value="true"/>
