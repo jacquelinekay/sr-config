@@ -2,7 +2,6 @@
   <include file="$(find sr_robot_launch)/launch/srhand.launch">
     <arg name="eth_port" value="eth1" />
     <arg name="robot_description" value="$(find sr_description)/robots/shadowhand_extra_lite.urdf.xacro"/>
-    <arg name="pwm_control" value="true"/>
     <arg name="hand_serial" value="1306"/>
     <arg name="debug" value="false"/>
     <arg name="mapping_path" default="$(find sr_edc_launch)/mappings/default_mappings/rh_extra_lite.yaml"/>
