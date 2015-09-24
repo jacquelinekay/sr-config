@@ -8,4 +8,6 @@
 
     <arg name="sim" value="false"/>
   </include>
+
+  <include file="$(find optoforce)/launch/optoforce_hand.launch"/>
 </launch>
