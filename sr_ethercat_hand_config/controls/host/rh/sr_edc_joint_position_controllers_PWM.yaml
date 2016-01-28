@@ -51,10 +51,10 @@ sh_rh_lfj3_position_controller:
     d: 300.0
     deadband: 0.0
     friction_deadband: 2000.0
-    i: 10.0
-    i_clamp: 80.0
+    i: 0.0
+    i_clamp: 0.0
     max_force: 600.0
-    p: 4500.0
+    p: 6000.0
     position_deadband: 0.003
   type: sr_mechanism_controllers/SrhJointPositionController
 sh_rh_lfj4_position_controller:
