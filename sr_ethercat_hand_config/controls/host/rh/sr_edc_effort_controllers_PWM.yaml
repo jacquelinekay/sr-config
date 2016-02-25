@@ -56,17 +56,17 @@ sh_rh_rfj4_effort_controller:
 sh_rh_lfj0_effort_controller:
   type: sr_mechanism_controllers/SrhEffortJointController
   joint: rh_LFJ0
-  max_force: 0
+  max_force: 600
   friction_deadband: 5
 sh_rh_lfj3_effort_controller:
   type: sr_mechanism_controllers/SrhEffortJointController
   joint: rh_LFJ3
-  max_force: 0
+  max_force: 600
   friction_deadband: 5
 sh_rh_lfj4_effort_controller:
   type: sr_mechanism_controllers/SrhEffortJointController
   joint: rh_LFJ4
-  max_force: 0
+  max_force: 600
   friction_deadband: 5
 sh_rh_lfj5_effort_controller:
   type: sr_mechanism_controllers/SrhEffortJointController
