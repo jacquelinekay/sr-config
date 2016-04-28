@@ -5,6 +5,7 @@ import rospy
 from diagnostic_msgs.msg import DiagnosticArray
 # from rospy_message_converter import message_converter
 
+# Not sure why we need this, remove the extra logging to file in production
 tracer = logging.getLogger('elasticsearch.trace')
 tracer.setLevel(logging.INFO)
 tracer.addHandler(logging.FileHandler('/tmp/es_trace.log'))
