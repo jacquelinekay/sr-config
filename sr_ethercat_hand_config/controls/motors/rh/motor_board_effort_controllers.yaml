@@ -81,13 +81,15 @@ lfj4:
     f: 300
     i: 0
     imax: 350
-    max_pwm: 300
+    max_pwm: 600
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
+    torque_limit: 0
+    torque_limiter_gain: 0
 lfj5:
   backlash_compensation: true
   pid:
@@ -96,13 +98,15 @@ lfj5:
     f: 300
     i: 0
     imax: 350
-    max_pwm: 400
+    max_pwm: 600
     p: 6200
     sg_left: 0
     sg_right: 0
     sgleftref: 0
     sgrightref: 0
     sign: 0
+    torque_limit: 0
+    torque_limiter_gain: 0
 mfj0:
   backlash_compensation: true
   pid:

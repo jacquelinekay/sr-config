@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rosrun controller_manager controller_manager spawn sh_rh_mfj3_effort_controller sh_rh_lfj0_effort_controller sh_rh_lfj4_effort_controller
